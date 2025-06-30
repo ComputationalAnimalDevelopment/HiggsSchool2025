@@ -13,7 +13,7 @@ The GitHub repository with the original code can be found at: https://github.com
 
 To run the simulation, you will need Python 3.10 or above installed on your system. It is recommended to use a virtual environment to manage Python dependencies (see next section for instructions on how to do this).
 
-Once you have set up the virtual environment, you can run simulations from the project directory by running the following command in the terminal or command prompt:
+Once you have set up the virtual environment and activated it, you can run simulations from the project directory by running the following command in the terminal or command prompt:
 ```bash
    python main.py
 ```
@@ -45,6 +45,11 @@ Set up a virtual environment by following these steps:
     Once the virtual environment is activated, you can install the necessary dependencies using pip and the provided requirements.txt file:
 
     ```pip install -r requirements.txt```
+
+
+To exit the virtual environment just run:
+
+    ```deactivate```
 
 
 ## Code Structure
