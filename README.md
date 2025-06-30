@@ -7,6 +7,7 @@ To run the simulation code you will need Python 3.10 or above installed on your 
 
 ## Cellular Automata
 - Consult the readme file in the appropriate subfolder to learn how to use the code.
+- Study how the Hill functions behave with change of parameters using the script ```visualize_Hill_function.py```.
 - Try the simulation with default parameters and see what happens.
 - Explore the code: Where are the "internal rules" defined? Where is the neighbourhood defined?
 - Try simulating with different initial VEGF concentrations and compare the visual output.
