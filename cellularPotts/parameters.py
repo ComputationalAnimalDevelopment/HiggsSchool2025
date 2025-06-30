@@ -66,7 +66,7 @@ adhesion_table = np.array([
     [ -0.5, 0.5,  0.4, 0.5]  # adhesion cell type 3 - partner X
 ])
 
-adhesion_table *= 36 # scale all values
+adhesion_table *= 6 # scale all values
 
 # Make the matrix diagonally symmetric (copy lower triangle to upper triangle)
 i_lower = np.tril_indices_from(adhesion_table, -1)
@@ -92,9 +92,9 @@ lambda_volume = np.array([
 # Surface area (or perimeter in 2D)
 """Target surface area / perimeter"""
 target_surface = np.array([
-    20, # target surface of cell type 1
-    20, # target surface of cell type 2
-    20  # target surface of cell type 3
+    1, # target surface of cell type 1
+    1, # target surface of cell type 2
+    1  # target surface of cell type 3
 ])
 
 # lambda is a Lagrange multiplier or penalty factor
