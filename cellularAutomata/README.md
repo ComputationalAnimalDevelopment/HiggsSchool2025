@@ -44,7 +44,7 @@ Set up a virtual environment by following these steps:
 
 To exit the virtual environment just run:
 
-    ```deactivate```
+    deactivate
 
 
 ## Code Structure
